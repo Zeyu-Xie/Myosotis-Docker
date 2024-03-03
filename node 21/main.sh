@@ -25,7 +25,7 @@ else
     echo -e -n "- Please choose your option (1-3): "
     read option
     if [ "$option" = "1" ]; then
-        docker run -i -v $(dirname $0):/app -t $result
+        docker run -p 3000:3000 -i -v $(dirname $0):/app -t $result
     elif [ "$option" = "2" ]; then
         docker rmi -f $result
         echo "Image $result has been removed."

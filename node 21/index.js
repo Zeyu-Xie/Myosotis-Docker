@@ -1,3 +1,13 @@
-const axios = require("axios")
+const express = require("express")
 
-console.log(axios)
+const port = 3000
+
+const app = express()
+
+app.get("/", (req,res) => {
+    res.send("Hello World! ")
+})
+
+app.listen(port, () => {
+    console.log("Server Created")
+})
