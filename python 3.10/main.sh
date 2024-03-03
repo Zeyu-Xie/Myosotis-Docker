@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Config Variables
-name="python"
+name="python_3.10"
 
 result=$(docker images -q --filter "reference=$name" | head -n 1)
 # No Image Found
