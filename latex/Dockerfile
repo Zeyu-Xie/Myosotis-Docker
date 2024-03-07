@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . /app
 
-CMD ["tlmgr", "--version"]
+CMD ["pdflatex", "-halt-on-error", "-output-directory=./src", "./src/main.tex"]
