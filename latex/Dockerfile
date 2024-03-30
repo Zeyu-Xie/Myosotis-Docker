@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . /app
 
+RUN chmod +x /app/compile.sh
+
 CMD ["./compile.sh"]
 
 # I originally used pdflatex, but it does not support Chinese characters.
