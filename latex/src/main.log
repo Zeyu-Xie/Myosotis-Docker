@@ -1612,8 +1612,23 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks37
 \enit@inbox=\box64
 \enitdp@description=\count182
-))
-(./src/main.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip80
+\thm@postskip=\skip81
+\thm@headsep=\skip82
+\dth@everypar=\toks43
+)
+\c@definition=\count183
+\c@properties=\count184
+\c@assumption=\count185
+) (./src/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1634,7 +1649,8 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 8.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 8.
- (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -1757,10 +1773,10 @@ Package microtype Warning: One or more slots in the configuration are unknown.
 ] (./src/main.aux) )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 27240 strings out of 493068
- 552884 string characters out of 6137720
- 573769 words of memory out of 5000000
- 30790 multiletter control sequences out of 15000+600000
+ 27332 strings out of 493068
+ 553995 string characters out of 6137720
+ 574936 words of memory out of 5000000
+ 30878 multiletter control sequences out of 15000+600000
  19071 words of font info for 42 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  66i,5n,96p,10437b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
