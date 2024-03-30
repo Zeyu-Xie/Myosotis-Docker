@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-CMD ["xelatex", "-halt-on-error", "-output-directory=./src", "./src/main.tex"]
+CMD ["sh", "-c", "xelatex -output-directory=./src ./src/main.tex && bibtex ./src/main.aux && xelatex -output-directory=./src ./src/main.tex && xelatex -output-directory=./src ./src/main.tex"]
 
 # I originally used pdflatex, but it does not support Chinese characters.
 

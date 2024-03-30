@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.7.17)  30 MAR 2024 02:58
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.7.17)  30 MAR 2024 04:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1994,20 +1994,37 @@ Package microtype Warning: One or more slots in the configuration are unknown.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-No file main.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-[1]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
+
+LaTeX Warning: Citation `Gerritsma2008' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Gerritsma2008' on page 1 undefined on input line 33.
+
+
+LaTeX Warning: Citation `Baseski2014' on page 1 undefined on input line 35.
+
+(./src/main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+ [1]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (./src/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 45.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 46.
+
+
+LaTeX Warning: There were undefined references.
+
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 35246 strings out of 493068
- 680438 string characters out of 6137720
- 738701 words of memory out of 5000000
- 38554 multiletter control sequences out of 15000+600000
+ 35250 strings out of 493068
+ 680494 string characters out of 6137720
+ 739701 words of memory out of 5000000
+ 38556 multiletter control sequences out of 15000+600000
  38923 words of font info for 52 fonts, out of 8000000 for 9000
  1508 hyphenation exceptions out of 8191
  66i,5n,96p,10437b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
