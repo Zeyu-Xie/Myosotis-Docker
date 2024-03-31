@@ -1,4 +1,4 @@
-FROM pluswave/ctex:latest
+FROM acanxie/xelatex:1.0.0
 
 WORKDIR /app
 

@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Config Variables
-name="latex"
+name="xelatex"
 
 result=$(docker images -q --filter "reference=$name" | head -n 1)
 # No Image Found
@@ -25,7 +25,7 @@ else
     echo -e -n "- Please choose your option (1-3): "
     read option
     if [ "$option" = "1" ]; then
-        docker run --platform linux/amd64 -i -v $(dirname $0):/app -t $result
+        docker run -i -v $(dirname $0):/app -t $result
     elif [ "$option" = "2" ]; then
         docker rmi -f $result
         echo "Image $result has been removed."
