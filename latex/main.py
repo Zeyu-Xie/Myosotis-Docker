@@ -70,7 +70,7 @@ elif pltf == "Linux":
         print("3. Exit\033[0m")
         option = input("- Please choose your option (1-3): ")
         if option == "1":
-            subprocess.run(["docker", "run", "-i", "-v", f"{os.path.dirname(__file__)}:/app", "-t", result])
+            subprocess.run(["docker", "run", "--platform", "linux/amd64", "-i", "-v", f"{os.path.dirname(__file__)}:/app", "-t", result])
         elif option == "2":
             subprocess.run(["docker", "rmi", "-f", result])
             print(f"Image {result} has been removed.")
