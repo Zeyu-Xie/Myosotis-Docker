@@ -27,6 +27,7 @@
 | -------------- | --------------------------------- | -------------- | --------------------------------------------------- |
 | `-d`           | `-d`                              | Detached Mode  | `docker run -d [image]`                             |
 | `-p`           | `-p [host port]:[container port]` | Port Mapping   | `docker run -p 8080:80 [image]`                     |
+| `-i`           | `-i`                              | Interactive    | `docker run -i [image]`                             |
 | `-v`           | `-v [host path]:[container path]` | Volume Mapping | `docker run -v /opt/datadir:/var/lib/mysql [image]` |
 | `--name`       | `--name [container name]`         | Container Name | `docker run --name mycontainer [image]`             |
 | `-e`           | `-e [key]=[value]`                | Environment    | `docker run -e MYSQL_ROOT_PASSWORD=123456 [image]`  |
