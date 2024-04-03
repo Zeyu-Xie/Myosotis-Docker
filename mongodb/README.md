@@ -51,6 +51,4 @@ use <database_name>
 ## Reference
 
 [Docker MongoDB](./Docker_MongoDB.md)
-Some additional license information which was able to be auto-detected might be found in the repo-info repository's mongo/ directory.
 
-As for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.
