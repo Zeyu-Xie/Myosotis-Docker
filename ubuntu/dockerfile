@@ -1,0 +1,9 @@
+FROM ubuntu:22.04
+
+WORKDIR /app
+
+COPY . /app
+
+RUN chmod +x basic.sh
+
+CMD [ "sh", "./basic.sh" ]
