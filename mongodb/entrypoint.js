@@ -1,7 +1,6 @@
 const { MongoClient } = require('mongodb');
 
 const uri = 'mongodb://localhost:27017';
-
 const dbName = 'admin';
 
 async function main() {
@@ -12,10 +11,18 @@ async function main() {
         await client.connect();
         console.log('Connected to MongoDB');
 
-        // 获取数据库对象
-        const db = client.db(dbName);
-        
-        console.log('Database:', db.databaseName);
+        // 获取 admin 数据库对象
+        const adminDb = client.db(dbName).admin();
+
+        console.log('Database:', adminDb.databaseName);
+
+        // 创建管理员用户
+        await adminDb.command({
+            createUser: 'adminUser',
+            pwd: '153719',
+            roles: [{ role: 'root', db: 'admin' }]
+        });
+        console.log('Admin user created successfully.');
 
     } catch (err) {
         console.error('Error:', err.stack);
